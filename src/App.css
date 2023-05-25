@@ -1,0 +1,114 @@
+
+.parent{
+   display: grid;
+   grid-template-rows: 70px 250px auto 150px;
+}
+
+/* .parent > div{
+  border: 1px solid red;
+} */
+
+.navi{
+  position: relative;
+  background-color: #f8f9fa;
+  
+}
+
+.navi > ul, .navi > ul > li{
+  display: inline;
+
+}
+.navi > ul{
+  position:absolute;
+  left: 18%;
+  top: 25%;
+}
+.navi > ul > li{
+  margin: 10%;
+}
+
+.navi>span{
+  position:absolute;
+  left: 5%;
+  top: 25%;
+}
+
+.navi>button{
+  position:absolute;
+  right: 5%;
+  top: 16%;
+  padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: inherit;
+
+}
+
+.navi>button>span{
+  border-radius: 50%;
+  color: white;
+  background-color: black;
+  padding: 8px;
+  margin: 5px;
+}
+
+select{
+  left: 135%;
+  position: absolute;
+  top: 4%;
+  border: none;
+  text-align: justify;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  background-color: inherit;
+}
+
+.header{
+  background-color: #212529;
+  color: white;
+  font-family: Brush Script MT;
+  position: relative;
+}
+.header > h1{
+  position: absolute;
+  left: 30%;
+  top: 20%;
+  font-weight: revert;
+  font-size: 80px;
+
+}
+
+.header>h3{
+  position: absolute;
+  bottom: 20%;
+  right: 35%;
+  font-size:50px;
+}
+
+.mid-body{
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+
+}
+
+.footer{
+  background-color: #212529;
+  color: #f8f9fa;
+  position: relative;
+}
+.footer>article{
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+
+.card1{
+  padding: 17px;
+  margin: 15px;
+}
+
+.cardFooter{
+  background-color: inherit;
+}
